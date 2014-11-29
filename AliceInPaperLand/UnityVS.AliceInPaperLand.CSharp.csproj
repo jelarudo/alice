@@ -76,8 +76,14 @@
     <Compile Include="Assets\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
     <Compile Include="Assets\UnityChan\SplashScreen\Scripts\SplashScreen.cs" />
     <Compile Include="Assets\VRGUI\Scripts\VRGUI.cs" />
+    <Compile Include="Assets\aoki\script\FadeOVR.cs" />
     <Compile Include="Assets\aoki\script\PageCreate.cs" />
+    <Compile Include="Assets\aoki\script\PlayerDeadState.cs" />
+    <Compile Include="Assets\aoki\script\SceneChange.cs" />
     <Compile Include="Assets\aoki\script\SpriteSheet.cs" />
+    <Compile Include="Assets\aoki\script\TurnPageFinishCheck.cs" />
+    <Compile Include="Assets\juon\Crystal.cs" />
+    <Compile Include="Assets\juon\Score.cs" />
     <Compile Include="Assets\juon\TurnPage.cs" />
     <None Include="Assets\OVR\Shaders\OVRGUIShader.shader" />
     <None Include="Assets\OVR\Shaders\TextShader3D.shader" />

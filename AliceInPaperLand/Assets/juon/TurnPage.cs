@@ -17,10 +17,15 @@ public class TurnPage : MonoBehaviour
 				if (Input.GetMouseButtonDown (0)) {
 					
 				}
-				if (roundTime <= 180) {
+				if (!IsEnd()) {
 						transform.RotateAround (this.transform.position, Vector3.right, speed * Time.deltaTime);
-						roundTime += 1.0f * Time.deltaTime;
+						roundTime += speed * Time.deltaTime;
 				}
 
 		}
+        public bool IsEnd()
+        {
+            return roundTime > 180;
+        }
+        
 }
