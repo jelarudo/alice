@@ -15,6 +15,7 @@ namespace UnityChan
 		Transform frontPos;			// Front Camera locater
 		Transform jumpPos;			// Jump Camera locater
 	
+
 		// スムーズに繋がない時（クイック切り替え）用のブーリアンフラグ
 		bool bQuickSwitch = false;	//Change Camera Position Quickly
 	
