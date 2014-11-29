@@ -23,7 +23,7 @@ public class SpriteSheet : MonoBehaviour
 	void Update()
 	{
 		int uIndex = number % _uvTieX;
-		int vIndex = number / _uvTieY;
+		int vIndex = number / _uvTieX;
 
 		// build offset
 		// v coordinate is the bottom of the image in opengl so we need to invert.

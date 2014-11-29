@@ -4,6 +4,8 @@
 TagManager:
   tags:
   - Crystal
+  - TurnPage
+  - Score
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
