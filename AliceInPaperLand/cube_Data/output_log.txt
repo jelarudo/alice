@@ -10,9 +10,7 @@ Platform assembly: D:\alice\AliceInPaperLand\cube_Data\Managed\UnityEngine.dll (
 Loading D:\alice\AliceInPaperLand\cube_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: D:\alice\AliceInPaperLand\cube_Data\Managed\Assembly-CSharp.dll (this message is harmless)
 Loading D:\alice\AliceInPaperLand\cube_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-- Completed reload, in  0.045 seconds
+- Completed reload, in  0.560 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
-Platform assembly: D:\alice\AliceInPaperLand\cube_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: D:\alice\AliceInPaperLand\cube_Data\Managed\System.dll (this message is harmless)

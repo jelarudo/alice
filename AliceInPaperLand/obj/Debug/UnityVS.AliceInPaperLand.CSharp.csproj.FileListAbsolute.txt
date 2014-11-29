@@ -1,9 +1,0 @@
-D:\alice\AliceInPaperLand\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
-D:\alice\AliceInPaperLand\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
-D:\alice\AliceInPaperLand\Temp\UnityVS_bin\Debug\UnityEditor.dll
-D:\alice\AliceInPaperLand\Temp\UnityVS_bin\Debug\UnityEngine.dll
-D:\alice\AliceInPaperLand\Temp\UnityVS_bin\Debug\UnityEngine.xml
-D:\alice\AliceInPaperLand\Temp\UnityVS_bin\Debug\UnityEditor.xml
-D:\alice\AliceInPaperLand\obj\Debug\UnityVS.AliceInPaperLand.CSharp.csprojResolveAssemblyReference.cache
-D:\alice\AliceInPaperLand\obj\Debug\Assembly-CSharp.dll
-D:\alice\AliceInPaperLand\obj\Debug\Assembly-CSharp.pdb

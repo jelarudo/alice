@@ -9,8 +9,8 @@ public class Score : MonoBehaviour
 		// Use this for initialization
 		void Start ()
 		{
-				crystal = GameObject.Find ("crystal");
-				//crystal.SetActive (false);
+				crystal = GameObject.Find ("Crystal");
+				crystal.SetActive (false);
 				highScore = PlayerPrefs.GetInt ("highScore", 0);
 		}
 	
@@ -28,7 +28,7 @@ public class Score : MonoBehaviour
 				guiText.text = "Score :" + score + "\n HighScore" +
 						highScore;
 				if (Score.score >= 10) {
-						//crystal.SetActive (true);
+						crystal.SetActive (true);
 				}
 		}
 }

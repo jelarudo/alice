@@ -16,7 +16,7 @@ GameObject:
   - 114: {fileID: 11400000}
   m_Layer: 0
   m_Name: axis
-  m_TagString: TurnPage
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129,7 +129,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   secs2Wait: 300
-  speed: 10
   roundTime: 0
 --- !u!1001 &100100000
 Prefab:
