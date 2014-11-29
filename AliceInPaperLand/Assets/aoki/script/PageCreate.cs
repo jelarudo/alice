@@ -43,7 +43,7 @@ public class PageCreate : MonoBehaviour {
                     position = _createPosition.transform.position + new Vector3(j, 0, -i) * cubeScale;
                     GameObject childObj = Instantiate(_cube, position, _cube.transform.rotation) as GameObject;
                     SpriteSheet sprite = childObj.GetComponent<SpriteSheet>();
-                    sprite.number = (16 * j ) + ( 8 + i ) ;
+                    sprite.number = (16 * j ) + ( 8 + i  ) ;
                     
                     childObj.transform.parent = parentObj.transform;
                 }
