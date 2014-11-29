@@ -30,18 +30,21 @@ public class PageCreate : MonoBehaviour {
         {
             for (int j = 0; j < width; ++j )
             {
-                if( i != 0 || j != 0 || i != height || j != width )
+                if( i != 0 || j != 0 || i != height-1 || j != width-1 )
                 {
                     ++count;
                 }
                 if (count == random)
                 {
-                    count++;
+                    ++count;
                 }
                 else
                 {
                     position = _createPosition.transform.position + new Vector3(j, 0, -i) * cubeScale;
                     GameObject childObj = Instantiate(_cube, position, _cube.transform.rotation) as GameObject;
+                    SpriteSheet sprite = childObj.GetComponent<SpriteSheet>();
+                    sprite.number = (16 * j ) + ( 8 + i ) ;
+                    
                     childObj.transform.parent = parentObj.transform;
                 }
             }

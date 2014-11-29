@@ -77,6 +77,8 @@
     <Compile Include="Assets\UnityChan\SplashScreen\Scripts\SplashScreen.cs" />
     <Compile Include="Assets\VRGUI\Scripts\VRGUI.cs" />
     <Compile Include="Assets\aoki\script\PageCreate.cs" />
+    <Compile Include="Assets\aoki\script\SpriteSheet.cs" />
+    <Compile Include="Assets\juon\TurnPage.cs" />
     <None Include="Assets\OVR\Shaders\OVRGUIShader.shader" />
     <None Include="Assets\OVR\Shaders\TextShader3D.shader" />
     <None Include="Assets\Plugins\donotdelete.txt" />
