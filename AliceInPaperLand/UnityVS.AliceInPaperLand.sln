@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.AliceInPaperLand.CSharp", "UnityVS.AliceInPaperLand.CSharp.csproj", "{681DF7A8-BC73-C6C7-8A13-491E9DD74E31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.AliceInPaperLand.CSharp.Editor", "UnityVS.AliceInPaperLand.CSharp.Editor.csproj", "{3938EE11-1680-70EB-6ACF-954F45CA5EC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{681DF7A8-BC73-C6C7-8A13-491E9DD74E31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{681DF7A8-BC73-C6C7-8A13-491E9DD74E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{681DF7A8-BC73-C6C7-8A13-491E9DD74E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{681DF7A8-BC73-C6C7-8A13-491E9DD74E31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3938EE11-1680-70EB-6ACF-954F45CA5EC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3938EE11-1680-70EB-6ACF-954F45CA5EC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3938EE11-1680-70EB-6ACF-954F45CA5EC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3938EE11-1680-70EB-6ACF-954F45CA5EC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
