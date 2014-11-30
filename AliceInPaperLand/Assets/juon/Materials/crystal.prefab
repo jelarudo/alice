@@ -113,6 +113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7e21c4d6b42e41569121da2fd1be7c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  particle: {fileID: 100008, guid: f9e3ae52f30c0e642bcef10cd347ff60, type: 2}
 --- !u!136 &13600000
 CapsuleCollider:
   m_ObjectHideFlags: 1

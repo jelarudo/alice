@@ -243,7 +243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 034df95bcaef70e47a10284cc29e69b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  guiPosition: {x: 0, y: 0, z: 1}
+  guiPosition: {x: 0, y: 0, z: 1.19000006}
   guiSize: 1
   useCurvedSurface: 1
   acceptMouse: 1
@@ -251,7 +251,7 @@ MonoBehaviour:
   cursorSize: 32
   customCursor: {fileID: 0}
   Timer: 0
-  WaitTimer: 10
+  WaitTimer: 3
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

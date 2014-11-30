@@ -39,7 +39,7 @@ public class PageCreate : MonoBehaviour
 						random = Random.Range (0, 36 + 1);
         
 				}
-				_cube.transform.localScale = new Vector3 (1.0f, 1.0f / cubeScale, 1.0f) * cubeScale;
+				_cube.transform.localScale = new Vector3 (1.0f, 0.5f / cubeScale, 1.0f) * cubeScale;
 
 				Vector3 position = _createPosition.transform.position;
 				GameObject parentObj = Instantiate (_cube, position, _cube.transform.rotation) as GameObject;
@@ -75,11 +75,11 @@ public class PageCreate : MonoBehaviour
 								}
 						}
 				}
-				position = _createPosition.transform.position + new Vector3 (-2, -2.0f, -3) * cubeScale;
+				position = _createPosition.transform.position + new Vector3 (-Random.Range( 0.0f, 15.0f ), -3.0f, -Random.Range( 0.0f, 15.0f ));
 				GameObject cristal = Instantiate (_crystal, position, _cube.transform.rotation) as GameObject;
         
 				cristal.transform.parent = parentObj.transform;
-				_createPosition.transform.position += new Vector3 (0.0f, 1.0f, 0.0f);
+				_createPosition.transform.position += new Vector3 (0.0f, 0.5f, 0.0f);
         
 				//Score add for passing 1 page
 				if (PageCountObject.count.page != 0) {

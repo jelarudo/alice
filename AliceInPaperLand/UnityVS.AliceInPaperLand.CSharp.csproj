@@ -49,6 +49,9 @@
     <Reference Include="NCMB">
       <HintPath>Assets\mBaaS\NCMB.dll</HintPath>
     </Reference>
+    <Reference Include="Assembly-UnityScript-firstpass">
+      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\OVR\Scripts\OVRCameraRig.cs" />
@@ -118,6 +121,7 @@
     <Compile Include="Assets\mBaaS\Scripts\Template\NCMBUTFriendTemplate.cs" />
     <Compile Include="Assets\mBaaS\Scripts\Template\NCMBUTRankingTemplate.cs" />
     <Compile Include="Assets\mBaaS\Scripts\Template\NCMBUTUserTemplate.cs" />
+    <None Include="Assets\KY_magicEffectsFree\ReadMe.txt" />
     <None Include="Assets\mBaaS\Editor\Template\FriendCustomTemplate.txt" />
     <None Include="Assets\mBaaS\Editor\Template\RankingCustomTemplate.txt" />
     <None Include="Assets\mBaaS\Editor\Template\UserCustomTemplate.txt" />
@@ -126,6 +130,7 @@
     <None Include="Assets\Plugins\donotdelete.txt" />
     <None Include="Assets\Plugins\x86\donotdelete.txt" />
     <None Include="Assets\Plugins\x86_64\donotdelete.txt" />
+    <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
     <None Include="Assets\UnityChan\Campaign_FightingUnityChan_Assets02\Documents\license.txt" />
     <None Include="Assets\UnityChan\Campaign_FightingUnityChan_Assets03\Documents\license.txt" />

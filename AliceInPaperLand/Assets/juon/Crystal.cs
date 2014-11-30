@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Crystal: MonoBehaviour
 {
+    public GameObject particle;
 	
 		// Use this for initialization
 		void Start ()
@@ -21,6 +22,8 @@ public class Crystal: MonoBehaviour
 				if (col.tag == "Player") {
 						Score.score += Score.CRYSTALSCOREPOINT;
 						Destroy (gameObject);
+                        Instantiate( particle, this.transform.GetChild(0).transform.position, particle.transform.rotation  );
+                        SoundManager.Instance.PlaySE(3);
 			
 				} else {
 						Destroy (this.gameObject);

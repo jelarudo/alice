@@ -61,6 +61,12 @@
     <Reference Include="UnityVS.VersionSpecific">
       <HintPath>Assets\UnityVS\Editor\UnityVS.VersionSpecific.dll</HintPath>
     </Reference>
+    <Reference Include="Assembly-UnityScript">
+      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-UnityScript-firstpass">
+      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityVS.AliceInPaperLand.CSharp.csproj">
@@ -86,6 +92,7 @@
     <Compile Include="Assets\mBaaS\Editor\NCMBUTEditorErrorMessage.cs" />
     <Compile Include="Assets\mBaaS\Editor\NCMBUTMenu.cs" />
     <Compile Include="Assets\mBaaS\Editor\Template\TemplateBuilder.cs" />
+    <None Include="Assets\KY_magicEffectsFree\ReadMe.txt" />
     <None Include="Assets\mBaaS\Editor\Template\FriendCustomTemplate.txt" />
     <None Include="Assets\mBaaS\Editor\Template\RankingCustomTemplate.txt" />
     <None Include="Assets\mBaaS\Editor\Template\UserCustomTemplate.txt" />
@@ -94,6 +101,7 @@
     <None Include="Assets\Plugins\donotdelete.txt" />
     <None Include="Assets\Plugins\x86\donotdelete.txt" />
     <None Include="Assets\Plugins\x86_64\donotdelete.txt" />
+    <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
     <None Include="Assets\UnityChan\Campaign_FightingUnityChan_Assets02\Documents\license.txt" />
     <None Include="Assets\UnityChan\Campaign_FightingUnityChan_Assets03\Documents\license.txt" />

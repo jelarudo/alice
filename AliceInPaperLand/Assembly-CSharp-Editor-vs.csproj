@@ -68,6 +68,7 @@
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\mBaaS\Editor\Template\UserCustomTemplate.txt" />
      <None Include="Assets\Plugins\x86_64\donotdelete.txt" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\VRGUI\Shaders\VRGUITransparentOverlayShader.shader" />
      <None Include="Assets\OVR\Shaders\TextShader3D.shader" />
      <None Include="Assets\UnityChan\Voice\unity-chan_voice_list.txt" />
@@ -75,6 +76,7 @@
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
+     <None Include="Assets\KY_magicEffectsFree\ReadMe.txt" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
      <None Include="Assets\UnityChan\Stage\Shader\AlphaMask.shader" />
@@ -87,6 +89,12 @@
      <None Include="Assets\mBaaS\Editor\Template\RankingCustomTemplate.txt" />
      <None Include="Assets\UnityChan\Campaign_FightingUnityChan_Assets02\Documents\license.txt" />
      <None Include="Assets\mBaaS\Editor\Template\FriendCustomTemplate.txt" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>D:/alice/AliceInPaperLand/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+ <Reference Include="Assembly-UnityScript">
+ <HintPath>D:/alice/AliceInPaperLand/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ </Reference>
  <Reference Include="NCMB">
  <HintPath>D:/alice/AliceInPaperLand/Assets/mBaaS/NCMB.dll</HintPath>
  </Reference>

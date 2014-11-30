@@ -12,9 +12,9 @@ public class TurnPage : MonoBehaviour
             int page = GameObject.FindGameObjectWithTag("Score").GetComponent<PageCount>().page;
             if( page > 3 )
             {
-                speed += (page - 3) * 0.1f;
+                speed += (page - 3) * 0.8f;
             }
-            speed = Mathf.Max( speed, 15.0f );
+            speed = Mathf.Min( speed, 15.0f );
 		}
 
 		// Update is called once per frame

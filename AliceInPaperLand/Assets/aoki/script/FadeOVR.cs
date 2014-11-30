@@ -7,7 +7,7 @@ public class FadeOVR : VRGUI {
 
     public float Timer = 0.0f;
 
-    public float WaitTimer = 10.0f;
+    public float WaitTimer = 3.0f;
 
     private Texture2D Texture;
 
@@ -51,6 +51,11 @@ public class FadeOVR : VRGUI {
     {
         GUI.color = NowColor;
         GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), Texture);
+        //int score = Score.score;
+        //GUI.color = Color.black;
+        //GUI.skin.label.fontSize = 40;
+        //GUI.Label( new Rect( 200.0f, 100.0f, 1000.0f, 1000.0f  ), "score"+ score.ToString() );
+        //GUI.TextField(new Rect(0.0f, 0.0f, 30.0f, 30.0f), "testst");
     }
 
     // 明るくなる

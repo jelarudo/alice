@@ -118,6 +118,7 @@
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\mBaaS\Editor\Template\UserCustomTemplate.txt" />
      <None Include="Assets\Plugins\x86_64\donotdelete.txt" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\VRGUI\Shaders\VRGUITransparentOverlayShader.shader" />
      <None Include="Assets\OVR\Shaders\TextShader3D.shader" />
      <None Include="Assets\UnityChan\Voice\unity-chan_voice_list.txt" />
@@ -125,6 +126,7 @@
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
+     <None Include="Assets\KY_magicEffectsFree\ReadMe.txt" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
      <None Include="Assets\UnityChan\Stage\Shader\AlphaMask.shader" />
@@ -140,6 +142,10 @@
  <Reference Include="NCMB">
  <HintPath>D:/alice/AliceInPaperLand/Assets/mBaaS/NCMB.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{BFBABE9C-18B2-4CDB-030F-6A4CE898DBF2}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
