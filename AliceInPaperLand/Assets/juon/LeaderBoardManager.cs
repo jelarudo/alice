@@ -144,6 +144,7 @@ public class LeaderBoardManager:VRGUI
 		void Start ()
 		{
             SoundManager.Instance.PlayBGM( 5 );
+           
             SoundManager.Instance.PlayVoice(5);
 				// テキストを表示するゲームオブジェクトを取得
 				for (uint i = 0; i < 5; ++i) {

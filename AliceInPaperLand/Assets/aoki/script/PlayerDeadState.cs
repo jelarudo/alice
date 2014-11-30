@@ -19,7 +19,7 @@ public class PlayerDeadState : MonoBehaviour {
             Application.LoadLevel("LeaderBoard");
             
         }
-        if( this.transform.position.y <= -5.0f )
+        if( this.transform.position.y <= -15.0f )
         {
             Gameover();
         }
