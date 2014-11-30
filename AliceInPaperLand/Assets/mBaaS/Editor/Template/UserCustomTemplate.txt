@@ -1,0 +1,81 @@
+using UnityEngine;
+using System.Collections;
+using NCMB;
+
+/// <summary>
+/// 会員登録機能使用時のテンプレートクラス	
+/// </summary>
+[AddComponentMenu("Scripts/NCMBUT/Custom Template/#CLASS_NAME#")]
+public class #CLASS_NAME#:MonoBehaviour
+{
+	/// <summary>
+	/// 会員管理のコントローラクラスを代入する変数
+	/// Inspector上で、HierarchyにあるNCMBUTUserConnectionのプレハブをアタッチする		
+	/// </summary>
+	public NCMBUTUserConnection Connection;
+
+#region SignUp Methods
+	/// <summary>
+	/// 新規登録を行うメソッド
+	/// ユーザIDの重複不可
+	/// </summary>
+	/// <param name="userId">ユーザID</param>
+	/// <param name="password">パスワード</param>
+	private void signUp(string userId, string password)
+	{
+		Connection.SignUp(userId, password, new ErrorCallBack(setSignUpError));
+	}
+	
+	/// <summary>
+	/// 新規登録の結果を受け取るメソッド
+	/// エラーがnullだと成功
+	/// </summary>
+	/// <param name="error">エラーの有無</param>
+	private void setSignUpError(NCMBException error)
+	{
+		
+	}
+#endregion
+
+#region LogIn Methods
+	/// <summary>
+	/// ログインを行うメソッド
+	/// </summary>
+	/// <param name="userId">ユーザID</param>
+	/// <param name="password">パスワード</param>
+	private void logIn(string userId, string password)
+	{
+		Connection.LogIn(userId, password, new ErrorCallBack(setLogInError));
+	}
+
+	/// <summary>
+	/// ログインの結果を受け取るメソッド
+	/// エラーがnullだと成功
+	/// </summary>
+	/// <param name="error">エラーの有無</param>
+	private void setLogInError(NCMBException error)
+	{
+		
+	}
+#endregion
+
+#region LogOut Methods
+	/// <summary>
+	/// ログアウトを行うメソッド
+	/// </summary>
+	private void logOut()
+	{
+		Connection.LogOut(new ErrorCallBack(setLogOutError));
+	}
+
+	/// <summary>
+	/// ログアウトの結果を受け取るメソッド
+	/// エラーがnullだと成功
+	/// </summary>
+	/// <param name="error">エラーの有無</param>
+	private void setLogOutError(NCMBException error)
+	{
+
+	}
+#endregion
+}

@@ -3,8 +3,12 @@ using System.Collections;
 
 public class Score : MonoBehaviour
 {
+		//CONSTANT SETTING
+		public static int PAGEPASSINGSCOREPOINT = 100;
+		public static int CRYSTALSCOREPOINT = 10;
+	
 		public static int score; 
-		static int highScore;
+		public static int highScore;
 		GameObject crystal;
 		// Use this for initialization
 		void Start ()
@@ -12,11 +16,13 @@ public class Score : MonoBehaviour
 				crystal = GameObject.Find ("crystal");
 				//crystal.SetActive (false);
 				highScore = PlayerPrefs.GetInt ("highScore", 0);
+				PlayerPrefs.SetInt ("score", 0); //At start time, this session score = 0 
 		}
 	
 		void OnDestroy ()
 		{
-				PlayerPrefs.SetInt ("highScore", highScore);
+				//PlayerPrefs.SetInt ("highScore", highScore);
+				//PlayerPrefs.SetInt ("score", score);
 		}
 	
 		// Update is called once per frame

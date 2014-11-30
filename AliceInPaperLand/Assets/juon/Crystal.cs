@@ -19,14 +19,12 @@ public class Crystal: MonoBehaviour
 		void OnTriggerEnter (Collider col)
 		{
 				if (col.tag == "Player") {
-						Score.score += 10;
+						Score.score += Score.CRYSTALSCOREPOINT;
 						Destroy (gameObject);
 			
+				} else {
+						Destroy (this.gameObject);
 				}
-                else
-                {
-                    Destroy( this.gameObject );
-                }
 		
 		}
 }
