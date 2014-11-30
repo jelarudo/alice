@@ -73,6 +73,7 @@
      <Compile Include="Assets\UnityChan\Scripts\ThirdPersonCamera.cs" />
      <Compile Include="Assets\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
      <Compile Include="Assets\UnityChan\SplashScreen\Scripts\SplashScreen.cs" />
+     <Compile Include="Assets\UserCustomTemplate.cs" />
      <Compile Include="Assets\VRGUI\Scripts\VRGUI.cs" />
      <Compile Include="Assets\aoki\script\FadeOVR.cs" />
      <Compile Include="Assets\aoki\script\PageCount.cs" />
@@ -88,9 +89,34 @@
      <Compile Include="Assets\juon\Crystal.cs" />
      <Compile Include="Assets\juon\Score.cs" />
      <Compile Include="Assets\juon\TurnPage.cs" />
+     <Compile Include="Assets\mBaaS\Example\Scripts\Friend\NCMBUTFriendSample.cs" />
+     <Compile Include="Assets\mBaaS\Example\Scripts\NCMBUTHome.cs" />
+     <Compile Include="Assets\mBaaS\Example\Scripts\Ranking\NCMBUTRankingSample.cs" />
+     <Compile Include="Assets\mBaaS\Example\Scripts\User\NCMBUTUserSample.cs" />
+     <Compile Include="Assets\mBaaS\Scripts\ConnectionSettings\NCMBUTFriendsDefaultSettings.cs" />
+     <Compile Include="Assets\mBaaS\Scripts\ConnectionSettings\NCMBUTMessagesDefaultSettings.cs" />
+     <Compile Include="Assets\mBaaS\Scripts\ConnectionSettings\NCMBUTPlayersDefaultSettings.cs" />
+     <Compile Include="Assets\mBaaS\Scripts\ConnectionSettings\NCMBUTRankingsDefaultSettings.cs" />
+     <Compile Include="Assets\mBaaS\Scripts\Enum\NCMBUTACLType.cs" />
+     <Compile Include="Assets\mBaaS\Scripts\Enum\NCMBUTDataType.cs" />
+     <Compile Include="Assets\mBaaS\Scripts\Enum\NCMBUTSortType.cs" />
+     <Compile Include="Assets\mBaaS\Scripts\NCMBUTACLData.cs" />
+     <Compile Include="Assets\mBaaS\Scripts\NCMBUTConnectionBase.cs" />
+     <Compile Include="Assets\mBaaS\Scripts\NCMBUTDelegateMethods.cs" />
+     <Compile Include="Assets\mBaaS\Scripts\NCMBUTErrorMessage.cs" />
+     <Compile Include="Assets\mBaaS\Scripts\NCMBUTFieldData.cs" />
+     <Compile Include="Assets\mBaaS\Scripts\NCMBUTFriendConnection.cs" />
+     <Compile Include="Assets\mBaaS\Scripts\NCMBUTKeySettings.cs" />
+     <Compile Include="Assets\mBaaS\Scripts\NCMBUTRankingConnection.cs" />
+     <Compile Include="Assets\mBaaS\Scripts\NCMBUTTypeUtil.cs" />
+     <Compile Include="Assets\mBaaS\Scripts\NCMBUTUserConnection.cs" />
+     <Compile Include="Assets\mBaaS\Scripts\Template\NCMBUTFriendTemplate.cs" />
+     <Compile Include="Assets\mBaaS\Scripts\Template\NCMBUTRankingTemplate.cs" />
+     <Compile Include="Assets\mBaaS\Scripts\Template\NCMBUTUserTemplate.cs" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
      <None Include="Assets\Plugins\donotdelete.txt" />
+     <None Include="Assets\mBaaS\Editor\Template\UserCustomTemplate.txt" />
      <None Include="Assets\Plugins\x86_64\donotdelete.txt" />
      <None Include="Assets\VRGUI\Shaders\VRGUITransparentOverlayShader.shader" />
      <None Include="Assets\OVR\Shaders\TextShader3D.shader" />
@@ -108,7 +134,12 @@
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
      <None Include="Assets\OVR\Shaders\OVRGUIShader.shader" />
      <None Include="Assets\Plugins\x86\donotdelete.txt" />
+     <None Include="Assets\mBaaS\Editor\Template\RankingCustomTemplate.txt" />
      <None Include="Assets\UnityChan\Campaign_FightingUnityChan_Assets02\Documents\license.txt" />
+     <None Include="Assets\mBaaS\Editor\Template\FriendCustomTemplate.txt" />
+ <Reference Include="NCMB">
+ <HintPath>D:/alice/AliceInPaperLand/Assets/mBaaS/NCMB.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

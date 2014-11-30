@@ -51,9 +51,22 @@
      <Compile Include="Assets\OVR\Editor\OVRPrefabs.cs" />
      <Compile Include="Assets\OVR\Editor\OVRShimLoader.cs" />
      <Compile Include="Assets\UnityChan\Editor\CreateLocatorHere.cs" />
+     <Compile Include="Assets\mBaaS\Editor\Enum\NCMBUTInputError.cs" />
+     <Compile Include="Assets\mBaaS\Editor\NCMBUTCustomAclSettings.cs" />
+     <Compile Include="Assets\mBaaS\Editor\NCMBUTCustomDataInputError.cs" />
+     <Compile Include="Assets\mBaaS\Editor\NCMBUTCustomEditorBase.cs" />
+     <Compile Include="Assets\mBaaS\Editor\NCMBUTCustomFieldSettings.cs" />
+     <Compile Include="Assets\mBaaS\Editor\NCMBUTCustomFriendEditor.cs" />
+     <Compile Include="Assets\mBaaS\Editor\NCMBUTCustomQuerySettings.cs" />
+     <Compile Include="Assets\mBaaS\Editor\NCMBUTCustomRankingEditor.cs" />
+     <Compile Include="Assets\mBaaS\Editor\NCMBUTCustomUserEditor.cs" />
+     <Compile Include="Assets\mBaaS\Editor\NCMBUTEditorErrorMessage.cs" />
+     <Compile Include="Assets\mBaaS\Editor\NCMBUTMenu.cs" />
+     <Compile Include="Assets\mBaaS\Editor\Template\TemplateBuilder.cs" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
      <None Include="Assets\Plugins\donotdelete.txt" />
+     <None Include="Assets\mBaaS\Editor\Template\UserCustomTemplate.txt" />
      <None Include="Assets\Plugins\x86_64\donotdelete.txt" />
      <None Include="Assets\VRGUI\Shaders\VRGUITransparentOverlayShader.shader" />
      <None Include="Assets\OVR\Shaders\TextShader3D.shader" />
@@ -71,7 +84,12 @@
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
      <None Include="Assets\OVR\Shaders\OVRGUIShader.shader" />
      <None Include="Assets\Plugins\x86\donotdelete.txt" />
+     <None Include="Assets\mBaaS\Editor\Template\RankingCustomTemplate.txt" />
      <None Include="Assets\UnityChan\Campaign_FightingUnityChan_Assets02\Documents\license.txt" />
+     <None Include="Assets\mBaaS\Editor\Template\FriendCustomTemplate.txt" />
+ <Reference Include="NCMB">
+ <HintPath>D:/alice/AliceInPaperLand/Assets/mBaaS/NCMB.dll</HintPath>
+ </Reference>
  <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
  <HintPath>D:/alice/AliceInPaperLand/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
  </Reference>

@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c26f412fcc1964546bf4beb8bac1f082, type: 3}
+  m_Name: NCMBUTKeySettings
+  m_EditorClassIdentifier: 
+  ApplicationKey: a297ed182731b3b1a2651b4e0fc0380f4bff93bf5a6284e331106d1ce6c64059
+  ClientKey: 0e4a0b8ba3083e654acc707823a33076f14d98fc7124a665ff456c900959fd20

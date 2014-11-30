@@ -49,6 +49,9 @@
     <Reference Include="UnityEditor.Graphs">
       <HintPath>Library\UnityAssemblies\UnityEditor.Graphs.dll</HintPath>
     </Reference>
+    <Reference Include="NCMB">
+      <HintPath>Assets\mBaaS\NCMB.dll</HintPath>
+    </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
@@ -71,6 +74,21 @@
     <Compile Include="Assets\OVR\Editor\OVRPrefabs.cs" />
     <Compile Include="Assets\OVR\Editor\OVRShimLoader.cs" />
     <Compile Include="Assets\UnityChan\Editor\CreateLocatorHere.cs" />
+    <Compile Include="Assets\mBaaS\Editor\Enum\NCMBUTInputError.cs" />
+    <Compile Include="Assets\mBaaS\Editor\NCMBUTCustomAclSettings.cs" />
+    <Compile Include="Assets\mBaaS\Editor\NCMBUTCustomDataInputError.cs" />
+    <Compile Include="Assets\mBaaS\Editor\NCMBUTCustomEditorBase.cs" />
+    <Compile Include="Assets\mBaaS\Editor\NCMBUTCustomFieldSettings.cs" />
+    <Compile Include="Assets\mBaaS\Editor\NCMBUTCustomFriendEditor.cs" />
+    <Compile Include="Assets\mBaaS\Editor\NCMBUTCustomQuerySettings.cs" />
+    <Compile Include="Assets\mBaaS\Editor\NCMBUTCustomRankingEditor.cs" />
+    <Compile Include="Assets\mBaaS\Editor\NCMBUTCustomUserEditor.cs" />
+    <Compile Include="Assets\mBaaS\Editor\NCMBUTEditorErrorMessage.cs" />
+    <Compile Include="Assets\mBaaS\Editor\NCMBUTMenu.cs" />
+    <Compile Include="Assets\mBaaS\Editor\Template\TemplateBuilder.cs" />
+    <None Include="Assets\mBaaS\Editor\Template\FriendCustomTemplate.txt" />
+    <None Include="Assets\mBaaS\Editor\Template\RankingCustomTemplate.txt" />
+    <None Include="Assets\mBaaS\Editor\Template\UserCustomTemplate.txt" />
     <None Include="Assets\OVR\Shaders\OVRGUIShader.shader" />
     <None Include="Assets\OVR\Shaders\TextShader3D.shader" />
     <None Include="Assets\Plugins\donotdelete.txt" />

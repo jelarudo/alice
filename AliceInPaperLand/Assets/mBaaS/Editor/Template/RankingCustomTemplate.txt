@@ -1,0 +1,125 @@
+using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+using NCMB;
+
+/// <summary>
+/// ランキング機能を使用時のテンプレートクラス
+/// </summary>
+[AddComponentMenu("Scripts/NCMBUT/Custom Template/#CLASS_NAME#")]
+public class #CLASS_NAME#:MonoBehaviour
+{
+	/// <summary>
+	/// ランキングのコントローラクラスを代入する変数
+	/// Inspector上で、HierarchyにあるNCMBUTRankingConnectionのプレハブをアタッチする
+	/// </summary>
+	public NCMBUTRankingConnection Connection;
+
+#region Send Score Methods
+	/// <summary>
+	/// スコアの送信を行うメソッド
+	/// ForceUpdateがtrueになっていると、強制更新を行う
+	/// </summary>
+	/// <param name="score">送信したいスコア</param>
+	private void sendScore(int score)
+	{
+		/**************
+		 * Inspectorで、フィールドの追加を行うことができる
+		 * ex. Connection.SetValue("userName", userName);
+		 **************/
+		Connection.SendScore(score, new ErrorCallBack(setSendError));
+	}
+
+	/// <summary>
+	/// スコア送信の結果を受け取るメソッド
+	/// エラーがnullだと成功
+	/// </summary>
+	/// <param name="error">エラーの有無</param>
+	private void setSendError(NCMBException error)
+	{
+		
+	}
+#endregion
+
+#region Get Ranking Methods
+	/// <summary>
+	/// ランキング取得を行うメソッド
+	/// </summary>
+	private void getRankingList()
+	{
+		Connection.GetRankingList(new ListCallback(setRankingList));
+	}
+
+	/// <summary>
+	/// ランキング取得の結果を受け取るメソッド
+	/// エラーがnullだと成功
+	/// </summary>
+	/// <param name="objList">ランキング一覧</param>
+	/// <param name="error">エラーの有無</param>
+	private void setRankingList(List<NCMBObject> objList, NCMBException error)
+	{
+		
+	}
+#endregion
+
+#region Get Current Rank Methods
+	/// <summary>
+	/// 現在のユーザの順位を取得するメソッド
+	/// 会員登録機能使用時のみ使用可能
+	/// </summary>
+	private void getCurrentRank()
+	{
+		Connection.GetCurrentRank(new IntCallback(setCurrentRank));
+	}
+
+	/// <summary>
+	/// 現在のユーザの順位の結果を受け取るメソッド
+	/// エラーがnullだと成功
+	/// </summary>
+	/// <param name="count">現在のユーザの順位</param>
+	/// <param name="error">エラーの有無</param>
+	private void setCurrentRank(int count, NCMBException error)
+	{
+		
+	}
+#endregion
+
+#region Get Total User Methods
+	/// <summary>
+	/// 総ユーザ数を取得するメソッド
+	/// </summary>
+	private void getTotalUser()
+	{
+		Connection.GetTotalPlayers(new IntCallback(setTotalPlayers));
+	}
+
+	/// <summary>
+	/// 総ユーザ数の結果を受け取るメソッド
+	/// エラーがnullだと成功
+	/// </summary>
+	/// <param name="count">総ユーザ数</param>
+	/// <param name="error">エラーの有無</param>
+	private void setTotalPlayers(int count, NCMBException error)
+	{
+
+	}
+#endregion
+
+#region Get User Score
+	/// <summary>
+	/// データストアから現在のスコアを取得するメソッド
+	/// </summary>
+	private void getUserScore() {
+		Connection.GetUserScore(new IntCallback(setUserScore));
+	}
+
+	/// <summary>
+	/// データストアから現在のスコアの結果を受け取るメソッド
+	/// </summary>
+	/// <param name="score">現在のスコア</param>
+	/// <param name="error">エラーの有無</param>
+	private void setUserScore(int score, NCMBException error) {
+
+	}
+#endregion
+}

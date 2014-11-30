@@ -9,6 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400000}
   - 20: {fileID: 2000000}
+  - 114: {fileID: 11400006}
   m_Layer: 0
   m_Name: LeftEyeAnchor
   m_TagString: Untagged
@@ -219,7 +220,7 @@ MonoBehaviour:
   timeWarp: 1
   freezeTimeWarp: 0
   resetTrackerOnLoad: 1
-  monoscopic: 1
+  monoscopic: 0
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -231,6 +232,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df9f338034892c44ebb62d97894772f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &11400006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 034df95bcaef70e47a10284cc29e69b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  guiPosition: {x: 0, y: 0, z: 1}
+  guiSize: 1
+  useCurvedSurface: 1
+  acceptMouse: 1
+  acceptKeyboard: 1
+  cursorSize: 32
+  customCursor: {fileID: 0}
+  Timer: 0
+  WaitTimer: 10
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
