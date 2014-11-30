@@ -16,7 +16,12 @@ public class PlayerDeadState : MonoBehaviour {
 	void Update () {
         if( fade.IsEnd() && animator.runtimeAnimatorController == animeControler )
         {
-            Application.LoadLevel( "result" );
+            Application.LoadLevel("LeaderBoard");
+            
+        }
+        if( this.transform.position.y <= -5.0f )
+        {
+            Gameover();
         }
 	
 	}
@@ -24,16 +29,19 @@ public class PlayerDeadState : MonoBehaviour {
     {
         if( collision.transform.name == "AliveCube" )
         {
-            Destroy( this.GetComponent<UnityChan.UnityChanControlScriptWithRgidBody>() );
-            GameObject.Find("CamPos").transform.position = this.transform.position + Vector3.up * 3.0f;
-            GameObject.Find("CamPos").transform.rotation = Quaternion.LookRotation( Vector3.down );
-            animator.runtimeAnimatorController = animeControler;
-            fade.FadeOut();
-            SoundManager.Instance.PlayVoice(Random.Range(22, 23 + 1));
+            Gameover();
         }
         
     }
-
+    void Gameover()
+    {
+        Destroy(this.GetComponent<UnityChan.UnityChanControlScriptWithRgidBody>());
+        GameObject.Find("CamPos").transform.position = this.transform.position + Vector3.up * 3.0f;
+        GameObject.Find("CamPos").transform.rotation = Quaternion.LookRotation(Vector3.down);
+        animator.runtimeAnimatorController = animeControler;
+        fade.FadeOut();
+        SoundManager.Instance.PlayVoice(Random.Range(22, 23 + 1));
+    }
 
 
 }

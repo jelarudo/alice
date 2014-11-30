@@ -87,6 +87,9 @@
      <Compile Include="Assets\aoki\script\SpriteSheet.cs" />
      <Compile Include="Assets\aoki\script\TurnPageFinishCheck.cs" />
      <Compile Include="Assets\juon\Crystal.cs" />
+     <Compile Include="Assets\juon\LeaderBoardManager.cs" />
+     <Compile Include="Assets\juon\LogInManager.cs" />
+     <Compile Include="Assets\juon\Manager.cs" />
      <Compile Include="Assets\juon\Score.cs" />
      <Compile Include="Assets\juon\TurnPage.cs" />
      <Compile Include="Assets\mBaaS\Example\Scripts\Friend\NCMBUTFriendSample.cs" />
@@ -113,6 +116,7 @@
      <Compile Include="Assets\mBaaS\Scripts\Template\NCMBUTFriendTemplate.cs" />
      <Compile Include="Assets\mBaaS\Scripts\Template\NCMBUTRankingTemplate.cs" />
      <Compile Include="Assets\mBaaS\Scripts\Template\NCMBUTUserTemplate.cs" />
+     <Compile Include="Assets\result.cs" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
      <None Include="Assets\Plugins\donotdelete.txt" />

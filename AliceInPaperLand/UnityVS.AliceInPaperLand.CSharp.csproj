@@ -95,6 +95,9 @@
     <Compile Include="Assets\aoki\script\SpriteSheet.cs" />
     <Compile Include="Assets\aoki\script\TurnPageFinishCheck.cs" />
     <Compile Include="Assets\juon\Crystal.cs" />
+    <Compile Include="Assets\juon\LeaderBoardManager.cs" />
+    <Compile Include="Assets\juon\LogInManager.cs" />
+    <Compile Include="Assets\juon\Manager.cs" />
     <Compile Include="Assets\juon\Score.cs" />
     <Compile Include="Assets\juon\TurnPage.cs" />
     <Compile Include="Assets\mBaaS\Example\Scripts\Friend\NCMBUTFriendSample.cs" />
@@ -121,6 +124,7 @@
     <Compile Include="Assets\mBaaS\Scripts\Template\NCMBUTFriendTemplate.cs" />
     <Compile Include="Assets\mBaaS\Scripts\Template\NCMBUTRankingTemplate.cs" />
     <Compile Include="Assets\mBaaS\Scripts\Template\NCMBUTUserTemplate.cs" />
+    <Compile Include="Assets\result.cs" />
     <None Include="Assets\KY_magicEffectsFree\ReadMe.txt" />
     <None Include="Assets\mBaaS\Editor\Template\FriendCustomTemplate.txt" />
     <None Include="Assets\mBaaS\Editor\Template\RankingCustomTemplate.txt" />

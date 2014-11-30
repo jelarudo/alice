@@ -8,6 +8,7 @@ public class SoundPlay : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        Screen.showCursor = false;
         if( SoundManager.Instance == null )
         {
             return;

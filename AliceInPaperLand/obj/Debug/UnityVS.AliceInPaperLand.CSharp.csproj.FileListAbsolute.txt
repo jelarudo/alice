@@ -7,3 +7,5 @@ D:\alice\AliceInPaperLand\obj\Debug\Assembly-CSharp.dll
 D:\alice\AliceInPaperLand\obj\Debug\Assembly-CSharp.pdb
 D:\alice\AliceInPaperLand\Temp\UnityVS_bin\Debug\Assembly-UnityScript-firstpass.dll
 D:\alice\AliceInPaperLand\Temp\UnityVS_bin\Debug\NCMB.dll
+D:\alice\AliceInPaperLand\Temp\UnityVS_bin\Debug\UnityEngine.xml
+D:\alice\AliceInPaperLand\Temp\UnityVS_bin\Debug\UnityEditor.xml

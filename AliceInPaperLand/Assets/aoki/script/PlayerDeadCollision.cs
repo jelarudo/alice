@@ -25,14 +25,23 @@ public class PlayerDeadCollision : MonoBehaviour
 						SoundManager.Instance.PlayVoice (Random.Range (24, 25 + 1));
 				}
         
+				GameOver ();
+		}
+
+		public void GameOver ()
+		{
+				
 				//SCORE SAVE
 				//Score scoreObj = GameObject.Find ("Score").GetComponent<Score> ();
 				//Destroy (scoreObj);
 				PlayerPrefs.SetInt ("score", Score.score);
 				PlayerPrefs.SetInt ("highScore", Score.highScore);
+				PlayerPrefs.Save ();
 				Debug.Log ("Score end PREF :" + PlayerPrefs.GetInt ("score", 0));
 				Debug.Log ("HighScore end PREF :" + PlayerPrefs.GetInt ("highScore", 0));
+				FindObjectOfType<Score> ().Save ();
+				Application.LoadLevel ("LeaderBoard");
+				
 		}
-
 
 }
