@@ -23,6 +23,10 @@ public class Crystal: MonoBehaviour
 						Destroy (gameObject);
 			
 				}
+                else
+                {
+                    Destroy( this.gameObject );
+                }
 		
 		}
 }

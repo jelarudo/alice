@@ -6,6 +6,8 @@ TagManager:
   - Crystal
   - TurnPage
   - Score
+  - Cube
+  - SoundManager
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX

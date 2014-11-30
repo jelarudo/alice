@@ -6,6 +6,7 @@ public class PageCreate : MonoBehaviour {
     public GameObject _cube;
     public GameObject _countObj;
     public GameObject _rotateAxis;
+    public GameObject _crystal;
 
     public GameObject _createPosition;
 
@@ -79,7 +80,10 @@ public class PageCreate : MonoBehaviour {
                 }
             }
         }
+        position = _createPosition.transform.position + new Vector3(-2, -2.0f, -3) * cubeScale;
+        GameObject cristal = Instantiate(_crystal, position, _cube.transform.rotation) as GameObject;
         
+        cristal.transform.parent = parentObj.transform;
         _createPosition.transform.position += new Vector3(0.0f, 1.0f, 0.0f);
 	
     }

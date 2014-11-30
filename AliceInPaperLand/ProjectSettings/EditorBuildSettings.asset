@@ -9,3 +9,5 @@ EditorBuildSettings:
     path: Assets/OVR/Scenes/MultiCamera.unity
   - enabled: 1
     path: Assets/scene/firstScene.unity
+  - enabled: 1
+    path: Assets/scene/result.unity

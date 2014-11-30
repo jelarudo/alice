@@ -80,6 +80,7 @@
     <Compile Include="Assets\aoki\script\PageCount.cs" />
     <Compile Include="Assets\aoki\script\PageCountObject.cs" />
     <Compile Include="Assets\aoki\script\PageCreate.cs" />
+    <Compile Include="Assets\aoki\script\PlayerDeadCollision.cs" />
     <Compile Include="Assets\aoki\script\PlayerDeadState.cs" />
     <Compile Include="Assets\aoki\script\SceneChange.cs" />
     <Compile Include="Assets\aoki\script\SoundManager.cs" />

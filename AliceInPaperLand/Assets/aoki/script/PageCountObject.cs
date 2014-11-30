@@ -15,12 +15,13 @@ public class PageCountObject : MonoBehaviour {
 	
 	}
 
-    void OnCollisionEnter(Collision collision)
+    void OnTriggerEnter(Collider col)
     {
-        if (collision.transform.tag == "Player")
+        if (col.transform.tag == "Player")
         {
             count.page += 1;
             Destroy( gameObject );
+            SoundManager.Instance.PlayVoice( Random.Range( 17, 21 + 1 ) );
         }
     }
 }

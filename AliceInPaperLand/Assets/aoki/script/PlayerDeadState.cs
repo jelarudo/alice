@@ -29,8 +29,9 @@ public class PlayerDeadState : MonoBehaviour {
             GameObject.Find("CamPos").transform.rotation = Quaternion.LookRotation( Vector3.down );
             animator.runtimeAnimatorController = animeControler;
             fade.FadeOut();
-
+            SoundManager.Instance.PlayVoice(Random.Range(22, 23 + 1));
         }
+        
     }
 
 

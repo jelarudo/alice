@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PageCount : MonoBehaviour {
 
-    public float page = 0; 
+    public int page = 0; 
     
     
 }

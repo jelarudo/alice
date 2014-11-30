@@ -57,6 +57,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 189963a53160a034cafab892c2246296, type: 3}
   - {fileID: 8300000, guid: ceea4a800e5b0ed4f8e0f0093128fd95, type: 3}
   - {fileID: 8300000, guid: 5636843e282466b4d92250f277574071, type: 3}
+  - {fileID: 8300000, guid: 2d9c781dfb550b24a8b3fe596b5ed3c9, type: 3}
   Voice:
   - {fileID: 8300000, guid: 16c1cd339ddd5b343a509eb7ce28b870, type: 3}
   - {fileID: 8300000, guid: 2891a883b7ba5334592b77cf154eb3a8, type: 3}
@@ -75,6 +76,15 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 6e84fbb35996f4c748507964e9c1d105, type: 3}
   - {fileID: 8300000, guid: cf71e3a227cd1415ea722ad3b584d292, type: 3}
   - {fileID: 8300000, guid: 7438894ace0984034991902fdba854a4, type: 3}
+  - {fileID: 8300000, guid: 687990b2a12cc4b6db34fdeceb9b8636, type: 3}
+  - {fileID: 8300000, guid: 55cdcf6662c1e410baec7623f20689d6, type: 3}
+  - {fileID: 8300000, guid: d721cf72523c74b5b937bd0a354fdd40, type: 3}
+  - {fileID: 8300000, guid: 5dadf04f00ed843aaaf7d41e3d53a927, type: 3}
+  - {fileID: 8300000, guid: 9fac2d685a3ce48f0b3ec4ed05101df6, type: 3}
+  - {fileID: 8300000, guid: d7c4040670e28478fbd49fd9b6060ac8, type: 3}
+  - {fileID: 8300000, guid: 874dc2aadd4204ec1987fcd17f8d7fb8, type: 3}
+  - {fileID: 8300000, guid: 1fea949ca16274adb8e4a6a9b673d938, type: 3}
+  - {fileID: 8300000, guid: d0e506a921cc445d6bac45b0420624a5, type: 3}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
